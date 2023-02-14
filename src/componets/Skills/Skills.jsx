@@ -46,8 +46,8 @@ export const skills = [
 
 export default function Skills() {
   return (
-    <section className=" text-center lg:px-72 xs:px-5 text-gray-300">
-      <article className="flex sm:flex-row  flex-wrap justify-center mx-auto py-40">
+    <section className=" text-center lg:px-72 xs:px-5 text-gray-300 h-[90%] flex sm:flex-row  flex-wrap justify-center mx-auto sm:py-40 xs:py-10">
+     
         {skills.map((skill, id) => (
           <article
             className="flex flex-col xs:w-[40%] sm:w-[23%] hover:scale-110 ease-in-out duration-300  hover:text-gray-600 
@@ -59,7 +59,7 @@ export default function Skills() {
             <h3 className="text-xl font-bold">{skill.name}</h3>
           </article>
         ))}
-      </article>
+      
     </section>
   );
 }
