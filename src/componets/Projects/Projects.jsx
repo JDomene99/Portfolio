@@ -24,7 +24,7 @@ export default function Projects() {
                 src={project.img}
               />
 
-              <footer className="flex flex-row flex-wrap px-4 pb-5 text-gray-300 mb-5 mt-6">
+              <footer className="flex flex-row flex-wrap pb-5 text-gray-300 mb-5 mt-6">
                 {project.technologies === undefined
                   ? ""
                   : project.technologies.map((tch, i) => {

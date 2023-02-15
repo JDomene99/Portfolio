@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "portfolio-josedomene"
-  }
+    "default": "portfolio-jose-domene",
+    "portfolio": "portfolio-jose-domene"
+  },
+  "targets": {},
+  "etags": {}
 }
