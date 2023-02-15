@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="xs:py-10 sm:py-32 text-center lg:px-10 xs:px-5 sm:px-10 md:px-10  text-gray-300 h-[100%]"
+      className="xs:py-4 sm:py-32 text-center lg:px-10 xs:px-5 sm:px-10 md:px-10  text-gray-300 h-[100%]"
     >
       <div className="flex lg:flex-row flex-wrap xs:flex-col gap-10 justify-center ">
         {projects.map((project) => (
