@@ -12,6 +12,7 @@ export default function About() {
     >
       <div className="abaoutimg xs:w-6/12 xs:pb-6 sm:pb-0 xs:mx-auto xs:h-auto md:w-3/12 lg:w-2/12 lg:mr-0">
         <img src={img} alt="icon" className="" />
+        
       </div>
 
       <div className="xs:6/12 md:8/12 xs:mx-auto lg:ml-12">
