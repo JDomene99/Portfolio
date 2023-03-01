@@ -5,13 +5,10 @@
     font-family: Ubuntu;
 }
 body{
-    background-image: url('./fondo.jpg');
-    background-repeat: repeat;
+    /* background-image: url('./fondo.jpg');
+    background-repeat: repeat; */
+    background-color:#0c2233;
     
-}
-#projects{
-    background-image: url('./fondo.jpg');
-    background-repeat: no-repeat;
 }
 #navbarMobile{
     background-image: url('./fondo.jpg');

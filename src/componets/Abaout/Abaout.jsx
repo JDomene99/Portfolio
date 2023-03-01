@@ -20,8 +20,8 @@ export default function About() {
         <h1 className="text-indigo-500 xs:text-5xl sm:text-8xl font-bold">
           Domene
         </h1>
-        <h3 className="xs:text-lg sm:text-2xl pt-3 text-gray-300 ">
-          Desarollador Web 🖥️, apasionado por la tecnología y la programación. 
+        <h3 className="xs:text-lg sm:text-2xl pt-3 text-gray-300">
+          Desarollador Web 🖥️ apasionado por la tecnología y la programación. 
         </h3>
         <h3 className="xs:text-lg sm:text-2xl pt-3 text-gray-300 mb-8 ">
           Estoy en busca de Experiencia realizando proyectos como Freelance.

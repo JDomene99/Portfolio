@@ -1,12 +1,4 @@
 import React from "react";
-import { AiFillHtml5 } from "react-icons/Ai";
-import { SiTailwindcss } from "react-icons/Si";
-import { FaCss3Alt } from "react-icons/Fa";
-import { GrReactjs } from "react-icons/Gr";
-import { IoLogoJavascript } from "react-icons/Io";
-import { DiSass } from "react-icons/Di";
-import { SiExpress } from "react-icons/Si";
-import { SiMongodb } from "react-icons/Si";
 
 export const skills = [
   {
