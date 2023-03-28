@@ -79,8 +79,6 @@ function App() {
       <Contact/>
       <div className='sticky bottom-10 right-10 w-1/12 ml-[90%] '>
         <AnchorLink href="#nav" ><ArrowUpwardIcon className='bg-indigo-500 rounded-2xl'/></AnchorLink>
-        
-        
       </div>
       
     </>
