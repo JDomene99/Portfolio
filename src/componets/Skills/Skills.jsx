@@ -106,8 +106,8 @@ export const skills = [
       >
         <defs>
           <linearGradient x1="-2.778%" y1="32%" x2="100%" y2="67.556%" id="a">
-            <stop stop-color="#2298BD" offset="0%" />
-            <stop stop-color="#0ED7B5" offset="100%" />
+            <stop stopColor="#2298BD" offset="0%" />
+            <stop stopColor="#0ED7B5" offset="100%" />
           </linearGradient>
         </defs>
         <path
@@ -193,7 +193,7 @@ export const skills = [
 
 export default function Skills() {
   return (
-    <section className=" text-center lg:px-52 xs:px-5 text-gray-300 h-[90%] flex sm:flex-row  flex-wrap justify-center mx-auto sm:py-40 xs:py-10">
+    <section className=" text-center lg:px-52 xs:px-5 text-gray-300 flex sm:flex-row  flex-wrap justify-center mx-auto xs:py-10" id="skills">
       {skills.map((skill, id) => (
         <article
           className="flex flex-col xs:w-[40%] sm:w-[20%] hover:scale-110 ease-in-out duration-300  hover:text-white pb-5"

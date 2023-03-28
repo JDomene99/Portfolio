@@ -7,8 +7,8 @@ export default function About() {
 
   return (
     <section
-      id="about"
-      className="flex md:flex-row flex-wrap xs:flex-col md:gap-20 lg:gap-0 text-center md:pt-32 xs:py-10 xs:px-4 h-[90%]"
+      id="home"
+      className="flex md:flex-row flex-wrap xs:flex-col md:gap-20 lg:gap-0 text-center xs:py-10 xs:px-4 h-screen items-center 2xl:mx-40"
     >
       <div className="abaoutimg xs:w-6/12 xs:pb-6 sm:pb-0 xs:mx-auto xs:h-auto md:w-3/12 lg:w-2/12 lg:mr-0">
         <img src={img} alt="icon" className="" />
@@ -23,8 +23,11 @@ export default function About() {
         <h3 className="xs:text-lg sm:text-2xl pt-3 text-gray-300">
           Desarollador Web 🖥️ apasionado por la tecnología y la programación. 
         </h3>
+        <h3 className="xs:text-lg sm:text-2xl pt-3 text-gray-300">
+        Destreza en la creación de interfaces de usuario atractivas y funcionales.
+          </h3>
         <h3 className="xs:text-lg sm:text-2xl pt-3 text-gray-300 mb-8 ">
-          Estoy en busca de Experiencia realizando proyectos como Freelance.
+       Estoy en busca de experiencia realizando proyectos como Freelance.
           </h3>
         <a className="text-white bg-indigo-500 border-0 py-3 px-7 focus:outline-none hover:bg-indigo-600 rounded text-lg" href={cv} download="cv.pdf">
         Descargar mi CV

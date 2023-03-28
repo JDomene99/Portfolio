@@ -3,10 +3,11 @@ import Abaout from './componets/Abaout/Abaout'
 import Skills from './componets/Skills/Skills'
 import Projects from './componets/Projects/Projects'
 import Contact from './componets/Contact/Contact'
-import { Routes, Route } from "react-router";
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { useCallback } from "react";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 function App() {
 
   const options = {
@@ -72,12 +73,15 @@ function App() {
     <>
      <Particles options={options} init={particlesInit} className="absolute -z-50"/>
       <Navbar/>
-      <Routes>
-        <Route path="/" element={<Abaout/>} />
-        <Route path="/skills" element={  <Skills/>} />
-        <Route path="/projects" element={   <Projects/>} />
-        <Route path="/contact" element={ <Contact/>} />
-      </Routes> 
+      <Abaout/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <div className='sticky bottom-10 right-10 w-1/12 ml-[90%] '>
+        <AnchorLink href="#nav" ><ArrowUpwardIcon className='bg-indigo-500 rounded-2xl'/></AnchorLink>
+        
+        
+      </div>
       
     </>
   )

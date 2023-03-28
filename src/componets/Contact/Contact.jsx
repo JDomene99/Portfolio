@@ -35,7 +35,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="text-center ">
+    <section className="text-center " id="contact">
       {showModal ? (
         <>
           <div className="top-28  mx-auto flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none w-1/12 ">
