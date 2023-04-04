@@ -11,7 +11,7 @@ export default function Projects() {
           <div
             id="cardProject"
             key={project.tittle}
-            className=" flex flex-col xs:w-12/12 lg:w-3/12 2xl:w-3/12 p-6 "
+            className=" flex flex-col xs:w-12/12 lg:w-3/12 2xl:w-3/12 p-6 hover:scale-105 ease-in-out duration-300"
           >
             <h1 className="title-font text-2xl font-bold text-indigo-500 pb-3">
               {project.tittle}

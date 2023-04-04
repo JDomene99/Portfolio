@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import cv from "./cv.pdf";
+import cv from "./img/cv.pdf";
 import img from "./img/icon.png";
 import './style.css'
 export default function About() {
@@ -27,7 +27,7 @@ export default function About() {
         Destreza en la creación de interfaces de usuario atractivas y funcionales.
           </h3>
         <h3 className="xs:text-lg sm:text-2xl pt-3 text-gray-300 mb-8 ">
-       Estoy en busca de experiencia realizando proyectos como Freelance.
+        En busca de experiencia realizando proyectos como Freelance.
           </h3>
         <a className="text-white bg-indigo-500 border-0 py-3 px-7 focus:outline-none hover:bg-indigo-600 rounded text-lg" href={cv} download="cv.pdf">
         Descargar mi CV
